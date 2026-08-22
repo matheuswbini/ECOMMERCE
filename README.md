@@ -2,30 +2,49 @@
 
 Projeto de **e-commerce desenvolvido por mim utilizando React, TypeScript e Tailwind CSS**.
 
-Criei esse projeto com o objetivo de colocar em prática meus conhecimentos em desenvolvimento web, principalmente na criação de interfaces, organização de componentes e desenvolvimento de aplicações com React.
+Desenvolvi esse projeto para colocar em prática meus conhecimentos em desenvolvimento web, principalmente na criação de interfaces, organização de componentes e desenvolvimento de aplicações utilizando React.
 
 ---
 
 ##  Sobre o projeto
 
-O **Webernato E-commerce** é uma aplicação de loja virtual com uma interface simples, moderna e responsiva.
+O **Webernato E-commerce** é uma aplicação de loja virtual com uma interface moderna, simples e responsiva.
 
-Durante o desenvolvimento, trabalhei na criação do catálogo de produtos e das telas de login e cadastro, buscando deixar a navegação organizada e agradável para o usuário.
+O projeto possui um catálogo de produtos, sistema de login e cadastro, além de diferentes componentes para organizar a aplicação.
 
-Esse projeto faz parte do meu processo de aprendizado em **Engenharia de Software** e foi desenvolvido para praticar conceitos de desenvolvimento front-end.
+A ideia foi criar uma loja virtual para praticar conceitos de **desenvolvimento front-end, componentização, responsividade e organização de código**.
 
 ---
 
 ##  Funcionalidades
 
 *  Catálogo de produtos
-*  Tela de login e cadastro
+*  Login e cadastro de usuários
+*  Interface de autenticação
+*  Opção de visualizar a senha
 *  Interface responsiva
-*  Interface moderna e organizada
+*  Design moderno e organizado
 *  Componentes reutilizáveis
 *  Desenvolvimento utilizando Vite
-*  TypeScript para maior organização e segurança no código
+*  TypeScript
 *  Estilização utilizando Tailwind CSS
+
+---
+
+##  Login
+
+O sistema de login deste projeto é **apenas para demonstração**.
+
+Atualmente, **qualquer e-mail e qualquer senha podem ser utilizados para entrar**, pois o projeto ainda não possui uma autenticação real conectada a um banco de dados ou API.
+
+### Exemplo:
+
+```text
+E-mail: teste@email.com
+Senha: 123456
+```
+
+Após clicar em **Entrar**, o login é simulado e o usuário consegue acessar a aplicação.
 
 ---
 
@@ -93,36 +112,77 @@ npm install
 npm run dev
 ```
 
-Depois disso, o Vite irá disponibilizar o projeto no endereço local informado no terminal.
+Depois disso, o Vite irá mostrar no terminal o endereço local para acessar a aplicação.
+
+---
+
+##  Scripts disponíveis
+
+### Executar o projeto
+
+```bash
+npm run dev
+```
+
+Inicia o servidor de desenvolvimento.
+
+### Criar versão de produção
+
+```bash
+npm run build
+```
+
+Gera a versão otimizada do projeto para produção.
+
+### Verificar o código
+
+```bash
+npm run lint
+```
+
+Executa o ESLint para verificar possíveis problemas no código.
+
+### Visualizar a versão de produção
+
+```bash
+npm run preview
+```
+
+Inicia uma prévia da versão de produção do projeto.
 
 ---
 
 ##  O que pratiquei neste projeto
 
-Com esse projeto, pude praticar e melhorar meus conhecimentos em:
+Durante o desenvolvimento deste projeto, pude praticar e melhorar meus conhecimentos em:
 
-* Desenvolvimento de interfaces com React
+* React
 * TypeScript
-* Criação e organização de componentes
+* Componentização
+* Desenvolvimento de interfaces
 * Responsividade
 * Tailwind CSS
-* Organização de projetos front-end
 * Vite
 * NPM
 * ESLint
+* Organização de projetos front-end
 * Desenvolvimento de interfaces para e-commerce
+* Criação de formulários de login e cadastro
 
 ---
 
-## Objetivo
+##  Objetivo
 
-O principal objetivo deste projeto foi **aprender e colocar em prática conceitos de desenvolvimento front-end**, criando uma aplicação que pudesse fazer parte do meu portfólio e me ajudar a evoluir como desenvolvedor.
+O principal objetivo deste projeto foi **colocar em prática os conhecimentos que estou adquirindo durante meus estudos em Engenharia de Software**, criando uma aplicação de e-commerce para melhorar minhas habilidades em desenvolvimento front-end.
 
-Pretendo continuar evoluindo meus projetos conforme avanço nos meus estudos em **Engenharia de Software**.
+Também utilizei o projeto como uma forma de entender melhor como organizar uma aplicação React e trabalhar com componentes reutilizáveis.
+
+Pretendo continuar evoluindo o projeto conforme avanço nos meus estudos, adicionando novas funcionalidades e tornando a aplicação cada vez mais completa.
 
 ---
 
-## Desenvolvedor
+
+##  Desenvolvedores
 
 **Matheus Weber Bini**
 
@@ -139,4 +199,4 @@ Pretendo continuar evoluindo meus projetos conforme avanço nos meus estudos em 
 
 ---
 
- Se você gostou do projeto, fique à vontade para explorar o código e acompanhar minha evolução.
+ Este projeto faz parte do meu portfólio e representa uma etapa do meu aprendizado em desenvolvimento de software.
