@@ -116,42 +116,6 @@ Depois disso, o Vite irá mostrar no terminal o endereço local para acessar a a
 
 ---
 
-##  Scripts disponíveis
-
-### Executar o projeto
-
-```bash
-npm run dev
-```
-
-Inicia o servidor de desenvolvimento.
-
-### Criar versão de produção
-
-```bash
-npm run build
-```
-
-Gera a versão otimizada do projeto para produção.
-
-### Verificar o código
-
-```bash
-npm run lint
-```
-
-Executa o ESLint para verificar possíveis problemas no código.
-
-### Visualizar a versão de produção
-
-```bash
-npm run preview
-```
-
-Inicia uma prévia da versão de produção do projeto.
-
----
-
 ##  O que pratiquei neste projeto
 
 Durante o desenvolvimento deste projeto, pude praticar e melhorar meus conhecimentos em:
